@@ -1,2 +1,3 @@
 # codeRefactor
 homework  6/15
+I updated this html and css code for optimization. I changed the header div and footer div to their semantic elements. I adjusted the nav bar and items. I combined redundant css properties where possible including the universal and class elements, such as the groups of images with exact desired attributes. I added alt tags to the images and removed any unneccessary lines in html and css that i noticed. 
