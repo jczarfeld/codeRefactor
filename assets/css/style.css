@@ -20,11 +20,8 @@ header {
     font-size: 48px;
 }
 
-.seo {
-    color: #d9dcd6;
-}
 
-.header div {
+header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,12 +29,14 @@ header {
     font-size: 20px;
 }
 
-.header div ul {
+ ul {
     list-style-type: none;
+    display:flex;
+    justify-content:flex-end;
 }
+ li {
 
-.header div ul li {
-    display: inline-block;
+    display: inline;
     margin-left: 25px;
 }
 
@@ -188,13 +187,16 @@ p {
     font-size: 36px;
 }
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
+}
+.seo {
+    color:lawngreen;
 }
